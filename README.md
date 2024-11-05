@@ -24,9 +24,9 @@ Steps:
 ```
 
 3. Reboot if the kernel or other core components were updated:
-
+```bash
 sudo reboot
-
+```
 
 
  # 2. Enabling Repositories
@@ -37,12 +37,18 @@ Steps:
 
 Enable RPM Fusion for additional software:
 
+```bash
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+```
+```bash
 sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+```
 
 Enable Flathub (optional, for Flatpak applications):
 
+```bash
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
 
 
 # 3. Installing Essential Development Tools
@@ -53,11 +59,14 @@ Steps:
 
 Install the Development Tools and Libraries groups:
 
+```bash
 sudo dnf groupinstall "Development Tools" "C Development Tools and Libraries"
-
+```
 Install general build tools (GCC, Make, etc.) and utilities:
 
+```bash
 sudo dnf install gcc g++ make cmake automake
+```
 
 
 # 4. Setting Up Programming Languages and Frameworks

@@ -103,7 +103,7 @@ sudo dnf install nodejs npm
 
 2. Install common packages:
 
-npm install -g typescript eslint yarn
+`npm install -g typescript eslint yarn`
 
 
 3. IDE: Visual Studio Code is recommended (see installation below).
@@ -147,7 +147,7 @@ Rust: sudo dnf install rust cargo
 
 Go: sudo dnf install golang
 
-PHP: sudo dnf install php php-cli php-mbstring
+PHP: `sudo dnf install php php-cli php-mbstring`
 
 
 # 5. Installing Essential Development Software

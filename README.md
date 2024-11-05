@@ -20,7 +20,7 @@ Steps:
 
 <pre>
  ```bash sudo dnf upgrade --refresh```
-</pre>pre>
+</pre>
 3. Reboot if the kernel or other core components were updated:
 
 sudo reboot

@@ -18,6 +18,7 @@ Steps:
 
 2. Run the following commands to update the system:
 
+```bash
 sudo dnf upgrade --refresh
 
 

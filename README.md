@@ -18,8 +18,8 @@ Steps:
 
 2. Run the following commands to update the system:
 
- <pre>
-  `sudo dnf upgrade --refresh`
+ 
+ `sudo dnf upgrade --refresh`
 
 3. Reboot if the kernel or other core components were updated:
 

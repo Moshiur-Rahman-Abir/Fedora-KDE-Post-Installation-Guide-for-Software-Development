@@ -21,7 +21,7 @@ Steps:
  <pre>
   `sudo dnf upgrade --refresh`
  </pre>
-<button onclick="navigator.clipboard.writeText('npm install your-package-name')">Copy Command</button>
+<button onclick="navigator.clipboard.writeText('npm install your-package-name')">sudo dnf upgrade --refresh</button>
 3. Reboot if the kernel or other core components were updated:
 
 sudo reboot

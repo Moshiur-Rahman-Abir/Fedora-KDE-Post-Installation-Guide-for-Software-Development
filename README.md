@@ -18,9 +18,9 @@ Steps:
 
 2. Run the following commands to update the system:
 
-```bash
+<pre>```bash
 sudo dnf upgrade --refresh
-```bash
+</pre>pre>
 3. Reboot if the kernel or other core components were updated:
 
 sudo reboot
